@@ -1,39 +1,49 @@
 # ahk-scripts
-bunch of ahk scripts that I use on Windows
+
+Bunch of AHK scripts that I use on Windows.<br>
 
 ## AltDrag
-alt+m1 = drag window
-alt+m2 = resize window
-alt+m3 = maximise/minimise window
+
+alt+m1 = drag window<br>
+alt+m2 = resize window<br>
+alt+m3 = maximise/minimise window<br>
 
 ## HideTaskbar
-f3 = hide taskbar
-f4 = show taskbar
+
+f3 = hide taskbar<br>
+f4 = show taskbar<br>
 
 ## M3Close
-Click m3 on an app's taskbar and it will close the app (as oppose to Windows default behaviour of opening another app)
+
+Click m3 on an app's taskbar and it will close the app (as opposed to Windows default behaviour of opening another app).<br>
 
 ## Mouse_Volume
-alt+scroll up = increase volume
-alt+scroll down = decrease volume
-win+m3 = mute
-note: This apply globally
+
+alt+scroll up = increase volume<br>
+alt+scroll down = decrease volume<br>
+win+m3 = mute<br>
+Note: This applies globally.<br>
 
 ## OnTop
-ctrl+spacebar will make current active window ontop
+
+Ctrl+Spacebar will make the currently active window stay on top.<br>
 
 ## SnapWin
-win+left arrow = current active window snap left
-win+right arrow = current active window snap right
-win + up arrow = maximise current active window
-note: This behaviour is present in Windows, but it seems to be bit janky which is why I'm using this script.
+
+win+left arrow = current active window snap left<br>
+win+right arrow = current active window snap right<br>
+win+up arrow = maximise current active window<br>
+Note: This behaviour is present in Windows, but it seems to be a bit janky, which is why I'm using this script.<br>
 
 ## TaskbarVolume
-scroll up or down on taskbar in order to increase and decrease global volume
+
+Scroll up or down on the taskbar in order to increase and decrease global volume.<br>
 
 ## VirtualDesktops
-alt+f1 = go to the next desktop to the right
-alt+f2 = go to the next desktop to the left
+
+alt+f1 = go to the next desktop to the right<br>
+alt+f2 = go to the next desktop to the left<br>
 
 ## cmd.ahk
-win+enter = open and maximised a cmd
+
+win+enter = open and maximised a cmd.<br>

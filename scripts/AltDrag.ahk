@@ -1,4 +1,3 @@
-﻿; Existing code for moving and resizing windows
 Alt & LButton::
   CoordMode, Mouse
   MouseGetPos, origMouseX, origMouseY, winId
@@ -56,3 +55,17 @@ rMouseWatch:
     WinMove, ahk_id %winId%,, newWinX, newWinY, newWinW, newWinH
   }
   return
+
+MButton::
+  WinGet, winId, ID, A
+  WinGet, winState, MinMax, ahk_id %winId%
+
+  if (winState = 1)
+  {
+    WinRestore, ahk_id %winId%
+  }
+  else
+  {
+    WinMaximize, ahk_id %winId%
+  }
+return

@@ -1,17 +1,17 @@
 ; Maximize the active window
-#Up::  ; Win + Up Arrow
-  WinGet, winId, ID, A  ; Get the ID of the active window
-  WinMaximize, ahk_id %winId%  ; Maximize the window
+#Up::
+  WinGet, winId, ID, A
+  WinMaximize, ahk_id %winId%
 return
 
 ; Snap active window to the left half of the screen
-#Left::  ; Win + Left Arrow
-  WinGet, winId, ID, A  ; Get the ID of the active window
-  WinMove, ahk_id %winId%, , 0, 0, A_ScreenWidth/2, A_ScreenHeight  ; Move and resize the window
+#Left::
+  WinGet, winId, ID, A
+  WinMove, ahk_id %winId%, , 0, 0, A_ScreenWidth/2, A_ScreenHeight
 return
 
 ; Snap active window to the right half of the screen
-#Right::  ; Win + Right Arrow
-  WinGet, winId, ID, A  ; Get the ID of the active window
-  WinMove, ahk_id %winId%, , A_ScreenWidth/2, 0, A_ScreenWidth/2, A_ScreenHeight  ; Move and resize the window
+#Right::
+  WinGet, winId, ID, A
+  WinMove, ahk_id %winId%, , A_ScreenWidth/2, 0, A_ScreenWidth/2, A_ScreenHeight
 return

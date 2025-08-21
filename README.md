@@ -53,4 +53,4 @@ f4 to disable/enable Windows 10 volume osd, script is suspended by default. <br>
 
 ## cmd
 
-win+enter = open and maximised a cmd.<br>
+win+enter = open and maximised a cmd, opens in C:/ by default.<br>

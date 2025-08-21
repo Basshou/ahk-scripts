@@ -8,6 +8,10 @@ alt+m1 = drag window<br>
 alt+m2 = resize window<br>
 alt+m3 = maximise/minimise window<br>
 
+## CapsEscape
+
+Change caps lock to esc <br>
+
 ## HideTaskbar
 
 f3 = hide taskbar<br>

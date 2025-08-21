@@ -14,8 +14,7 @@ Change caps lock to esc <br>
 
 ## HideTaskbar
 
-f3 = hide taskbar<br>
-f4 = show taskbar<br>
+Pressing f3 will hide/unhide the taskbar<br>
 
 ## M3Close
 

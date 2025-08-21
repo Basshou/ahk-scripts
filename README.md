@@ -47,6 +47,10 @@ Scroll up or down on the taskbar in order to increase and decrease global volume
 alt+f1 = go to the next desktop to the right<br>
 alt+f2 = go to the next desktop to the left<br>
 
-## cmd.ahk
+## VolumeOSD
+
+f4 to disable/enable Windows 10 volume osd, script is suspended by default. <br>
+
+## cmd
 
 win+enter = open and maximised a cmd.<br>

@@ -31,13 +31,6 @@ Note: This applies globally.<br>
 
 Ctrl+Spacebar will make the currently active window stay on top.<br>
 
-## SnapWin
-
-win+left arrow = current active window snap left<br>
-win+right arrow = current active window snap right<br>
-win+up arrow = maximise current active window<br>
-Note: This behaviour is present in Windows, but it seems to be a bit janky, which is why I'm using this script.<br>
-
 ## TaskbarVolume
 
 Scroll up or down on the taskbar in order to increase and decrease global volume.<br>
@@ -55,3 +48,11 @@ note: Bit unstable when changing volume via **MouseVolume**.
 ## cmd
 
 win+enter = open and maximised a cmd, opens in C:/ by default.<br>
+
+# SnapWin (Deprecated)
+
+win+left arrow = current active window snap left<br>
+win+right arrow = current active window snap right<br>
+win+up arrow = maximise current active window<br>
+Note: Deprecated for now as it messes with my alt key for some reason. This behaviour is already present in Windows, but it seems to be a bit janky, which is why I had to resort with using this script.<br>
+

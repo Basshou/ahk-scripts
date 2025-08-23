@@ -6,7 +6,7 @@ Bunch of AHK scripts that I use on Windows.<br>
 
 alt+m1 = drag window<br>
 alt+m2 = resize window<br>
-alt+m3 = maximise/minimise window<br>
+win+m3 = maximise/minimise window<br>
 
 ## CapsEscape
 
@@ -22,9 +22,9 @@ Click m3 on an app's taskbar and it will close the app (as opposed to Windows de
 
 ## MouseVolume
 
-win+scroll up = increase volume<br>
-win+scroll down = decrease volume<br>
-win+m3 = mute<br>
+alt+scroll up = increase volume<br>
+alt+scroll down = decrease volume<br>
+alt+m3 = mute<br>
 Note: This applies globally.<br>
 
 ## OnTop
@@ -43,7 +43,6 @@ alt+f2 = go to the next desktop to the left<br>
 ## VolumeOSD
 
 f4 to disable/enable Windows 10 volume osd, script is suspended (disabled) by default. <br>
-note: Bit unstable when changing volume via **MouseVolume**.
 
 ## cmd
 

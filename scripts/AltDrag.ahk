@@ -56,7 +56,7 @@ rMouseWatch:
   }
   return
 
-MButton::
+#MButton::
   WinGet, winId, ID, A
   WinGet, winState, MinMax, ahk_id %winId%
 
@@ -69,3 +69,4 @@ MButton::
     WinMaximize, ahk_id %winId%
   }
 return
+

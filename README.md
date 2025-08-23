@@ -42,7 +42,7 @@ alt+f2 = go to the next desktop to the left<br>
 
 ## VolumeOSD
 
-f4 to disable/enable Windows 10 volume osd, script is suspended (disabled) by default. <br>
+f4 to disable/enable Windows 10 volume osd
 
 ## cmd
 
